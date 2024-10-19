@@ -1,0 +1,35 @@
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+.container {
+    text-align: center;
+}
+
+.seat {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    display: inline-block;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: orange;
+}
+
+.unavailable {
+    background-color: #555; /* Cor para assentos não disponíveis */
+    cursor: not-allowed;
+}
+
+#confirmButton {
+    margin-top: 20px;
+}

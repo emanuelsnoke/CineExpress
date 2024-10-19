@@ -1,0 +1,50 @@
+
+.menu-principal{
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    background: #CF7D01;
+  }
+
+  .menu ul li{
+    display: inline-block;
+    color: #FFFFFF;
+    margin-left: 60px;
+  }
+  .menu ul li a{
+    color: #FFFFFF;
+    font-size: 35px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .menu ul li2 a{
+    color: #FFFFFF;
+    font-size: 60px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .Filmes{
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-around
+    }
+
+   .login a{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: -515px;
+    left: 1000px;
+
+    font-size: 35px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+   }
+
+   
